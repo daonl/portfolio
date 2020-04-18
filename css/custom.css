@@ -1,0 +1,131 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+/* KEEP THESE STYLES */
+header {
+  padding: 154px 0 100px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+section {
+  padding: 150px 0;
+}
+/* END OF KEEP THESE STYLES */
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: gray;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: gray;
+}
+
+.nav-item {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.bg-light {
+    background-color: #ffffff!important;
+}
+
+#logo {
+	padding: 10px;
+}
+
+#logo:hover {
+	opacity: 0.75;
+}
+
+header {
+    padding: 154px 0 50px;
+}
+
+.bg-primary {
+    background-color: #ffffff!important;
+}
+
+.container.text-left h1 {
+	color: black;
+}
+
+.lead {
+	text-align: left;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: black;
+}
+
+p {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 400;
+}
+
+h1 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+}
+
+h2 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 22px;
+}
+
+h3 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+h4 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.col-md-6 {
+    padding: 30px;
+}
+
+.card-text {
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	font-weight: 700;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+img.card-image-top:hov {
+	opacity: 0.75;
+}
+
+.credits {
+	font-size: 12px;
+	text-align: center;
+}
+
+footer {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
