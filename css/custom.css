@@ -193,36 +193,6 @@ a.aboutlink:hover {
 	margin-top: 8rem;
 }
 
-button.btn.btn-primary {
-	color: #fff;
-    background-color: #493c36;
-    border-color: #493c36;
-}
-
-button.btn.btn-primary:visited {
-	color: #fff;
-    background-color: #493c36;
-    border-color: #493c36;
-}
-
-button.btn.btn-primary:hover {
-	color: #493c36;
-	background-color: #e2b699;
-	border-color: #e2b699;
-}
-
-button.btn.btn-primary:active {
-	color: #493c36;
-	background-color: #e2b699;
-	border-color: #e2b699;
-}
-
-button.btn.btn-primary:focus {
-	color: #493c36;
-	background-color: #e2b699;
-	border-color: #e2b699;
-}
-
 #ease, #rvwebsite, #vsa, #dukeseat {
 	margin-top: 10rem;
 }
@@ -233,10 +203,4 @@ button.btn.btn-primary:focus {
     height: 0;
     padding: 0;
     overflow: hidden;
-}
-
-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
-    color: #493c36;
-    background-color: #e2b699;
-    border-color: #e2b699;
 }
