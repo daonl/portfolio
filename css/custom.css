@@ -229,3 +229,8 @@ a.aboutlink:hover {
 	background-color: #ffffff!important;
 }
 
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #493c36;
+    border-color: #493c36;
+}
