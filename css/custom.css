@@ -135,6 +135,12 @@ footer {
 	background-color: #ffffff;
 }
 
+.btn-primary {
+	color: #fff;
+    background-color: #493c36;
+    border-color: #493c36;
+}
+
 .btn-primary:link {
 	color: #fff;
     background-color: #493c36;
@@ -203,4 +209,18 @@ a.aboutlink:hover {
     height: 0;
     padding: 0;
     overflow: hidden;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #493c36;
+}
+
+.dropdown-item {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
 }
