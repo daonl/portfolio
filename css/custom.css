@@ -224,3 +224,8 @@ a.aboutlink:hover {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
+
+.breadcrumb {
+	background-color: #ffffff!important;
+}
+
