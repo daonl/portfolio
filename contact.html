@@ -19,7 +19,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="mainNav">
       <div class="container">
-        <div class="logo">
+        <div id="logo">
           <a href="index.html"><img class="img-fluid" src="images/thylogo.png" alt="Thy Dao's personal logo"></a>
         </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,7 +28,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="index.html">Portfolio</a>
+              <a class="nav-link js-scroll-trigger" href="#index.html">Portfolio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="about.html">About</a>
@@ -44,35 +44,53 @@
       </div>
     </nav>
 
-    <header class="bg-primary text-white">
-      <div class="container text-center">
-        <h1>Welcome to Scrolling Nav</h1>
-        <p class="lead">A landing page template freshly redesigned for Bootstrap 4</p>
-      </div>
-    </header>
+    <div class="container">
+      <div id="contact">
+        <div class="row">
 
-    <section id="about">
-      <!-- PUT YOUR FIRST SECTION DIVS/COLUMNS HERE -->
-      <!-- USE CONTAINER, ROW, COL -->
-      <h1>Change the navigation and id to be relevant to your content!</h1>
-    </section>
+            <div class="col-md-6">
+              <h1>Contact Me</h1>
+              <p>Email: <a href="mailto:thydao99@yahoo.com?Subject=Hello%20there" target="_top" class="aboutlink">thydao99@yahoo.com</a></p>
+              <p>Phone: (703) 870-5396</p>
+              <p>Location: Sterling, VA</p>
+            </div> <!-- end contact info section -->
 
-    <section id="services" class="bg-light">
-      <!-- PUT YOUR SECOND SECTION DIVS/COLUMNS HERE -->
-      <!-- USE CONTAINER, ROW, COL -->
-      <h2>Second section goes here </h2>
-    </section>
+            <div class="col-md-6">
+              <form>
+                <div class="form-group">
+                  <label for="formGroupExampleInput">Name</label>
+                  <input type="text" class="form-control" id="formGroupExampleInput">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Email</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                  <label for="formGroupExampleInput">Subject</label>
+                  <input type="text" class="form-control" id="formGroupExampleInput">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Message</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div> <!-- end form section -->
 
-    <section id="contact">
-      <!-- PUT YOUR THIRD SECTION DIVS/COLUMNS HERE -->
-    <!-- USE CONTAINER, ROW, COL -->
-    <h3>Third section goes here</h3>
-    <h4>Duplicate the section tag for more sections and add a list item to the navigation. Be sure to match ids!</h4>
-    </section>
+        </div> <!-- end row 2 sections -->
+      </div> <!-- end contact -->
+    </div> <!-- end div container -->
 
     <!-- Footer -->
     <footer>
         <!-- PUT YOUR FOOTER CONTENT HERE -->
+       <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p class="credits">© 2020 by Thy Dao</p>
+          </div>
+        </div> <!-- end footer row -->
+      </div>       
     </footer>
 
     <!-- jQuery and Bootstrap links - do not delete! -->
