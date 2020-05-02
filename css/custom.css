@@ -222,3 +222,21 @@ button.btn.btn-primary:focus {
 	background-color: #e2b699;
 	border-color: #e2b699;
 }
+
+#ease, #rvwebsite, #vsa, #dukeseat {
+	margin-top: 10rem;
+}
+
+.embed-responsive {
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #493c36;
+    background-color: #e2b699;
+    border-color: #e2b699;
+}
