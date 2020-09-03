@@ -76,6 +76,8 @@ header {
 p {
 	font-family: 'Rubik', sans-serif;
 	font-weight: 400;
+	font-size: 15px;
+	line-height: 1.8em;
 }
 
 h1 {
@@ -83,25 +85,40 @@ h1 {
 	font-weight: 700;
 	font-size: 40px;
 	padding-bottom: 15px;
+	line-height: 1.5em;
+}
+
+.project-title h1 {
+	padding-bottom: 0px !important;
+}
+
+.project-title {
+	padding-bottom: 15px;
 }
 
 h2 {
 	font-family: 'Lato', sans-serif;
-	font-weight: 400;
-	font-size: 25px;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 28px;
+	letter-spacing: 0.05em;
+	line-height: 1.5em;
+	padding-bottom: 8px;
 }
 
 h3 {
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
-	font-size: 23px;
+	font-size: 25px;
+	line-height: 1.5em;
 }
 
 h4 {
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
-	font-size: 18px;
+	font-size: 20px;
 	color: #595959;
+	line-height: 1.5em;
 }
 
 h5 {
