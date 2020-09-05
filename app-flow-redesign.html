@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Thy Dao is a visual designer with a user&#45;centered approach. Learn more about her projects, work experience, and skills in her portfolio.">
+    <meta name="description" content="Thy Dao is a visual designer with a user&#45;centered approach. Learn more about her Snapchat App Flow Redesign Project.">
       <meta name="author" content="Thy Dao">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snapchat App Flow Redesign &mdash; a UX Case Study</title>
@@ -101,7 +101,7 @@
 
               <h3>The Process</h3>
               <img src="images/designthinkingthy.png" alt="Design thinking process from empathy to iteration." class="img-fluid">
-              <p>For this redesign project, I utilized the Design Thinking process, which follows an overall flow of understanding, exploring and discovering, and materializing. The six phases of empathizing, defining, ideating, prototyping, testing, and implementing make up that larger flow. Design thinking is a non-linear process that is user focused and aims to generate creative solutions to social or design problems. It's a great tool to use to address issues at a strategic level, and by incorporating this process into my work, it has helped me process and visualize the complex variables that arise within my projects. For the purpose of this project assignment, and as I have no affiliation with Snapchat, I have only worked through this process up until the Prototype stage.</p>
+              <p>For this redesign project, I utilized the Design Thinking process, which follows an overall flow of understanding, exploring and discovering, and materializing. The six phases of empathizing, defining, ideating, prototyping, testing, and implementing make up that larger flow. Design thinking is a non-linear process that is user focused and aims to generate creative solutions to social or design problems. It's a great tool to use to address issues at a strategic level, and by incorporating this process into my work, it has helped me process and visualize the complex variables that arise within my projects. For the purpose of this assignment, I have only worked through this process up until the Prototype stage.</p>
 
               <h3>Empathize</h3>
 
@@ -143,15 +143,100 @@
                 <img src="images/difficultychat.png" alt="Pie chart demonstrating how many participants had difficulty locating chat messages." class="img-fluid" id="redesign-intro-pic">
 
               </ul>
-              <p>They were asked to elaborate in the next survey question, which was a text entry box, and many users complained that they would forget to save previous conversations, couldn't easily find older saved messages, or simply disliked that they had to save chats or else they got deleted. One user said, &#34;I often save funny memes in our conversations using the Save in Chat feature, but I rarely ever look back at them, especially when it gets pushed down into my older conversations.&#34;</p>
+              <p>They were asked to elaborate in the next survey question, which was a text entry box, and <strong>many users complained that they would forget to save previous conversations, couldn't easily find older saved messages, or simply disliked that they had to save chats or else they got deleted.</strong> One user said, &#34;I often save funny memes in our conversations using the Save in Chat feature, but I rarely ever look back at them, especially when it gets pushed down into my older conversations.&#34;</p>
 
               <h3>Define the Problem</h3>
 
-              <h4>Pain Point &#35;1&#58; Users have difficulty remembering to save previous conversations.</h4>
+              <h4>Pain Point &#35;1&#58; Users have difficulty remembering to save previous messages in conversations.</h4>
               <p>I wasn't surprised to find that the users also had similar experiences to me when it came to forgetting to save messages. Saving messages isn't something users often have to do with other messaging apps, so it can feel unnnatural to get into the habit of saving messages on Snapchat. When users forget to save a message and open the conversation later to find that they don't remember what they last said or can't find important information that they needed to keep handy, it can take away from the experience and make text chatting on Snapchat less reliable than using another application to chat.</p>
 
               <h4>Pain Point &#35;2&#58; Users have difficulty finding older saved messages.</h4>
               <p>As stated previously, 74.2&percnt; of users had difficulty locating specific chat messages. This can be especially frustrating for users who use the text chat feature often. One user even suggested that the text chat should have a search bar, similar to iOS Messages where you can search for parts of any conversation.</p>
+
+              <h3>Ideate</h3>
+
+              <h4>Synthesize</h4>
+
+              <p>I refined my findings into a couple key points:</p>
+              <ul>
+                <li>Make it so users won't forget to save messages</li>
+                <li>Help users locate specific saved messages more easily</li>
+              </ul>
+
+              <h4>Information Architecture</h4>
+
+              <p>I mapped out Snapchat's current information architecture to get a better understanding of how a redesign could work.</p>
+
+              <a href="images/snapchat-ia.png" target="_blank"><img src="images/snapchat-ia.png" alt="Snapchat's information architecture visualized in a site map." class="img-fluid"></a>
+
+              <p>As my focus is to improving the experience of users utilizing the text chat feature, redesigning the IA was not necessary. However, being able to visualize it in a site map helped me to understand the application better as a whole and made me consider how many parts of the IA go unused &#40;maybe an idea for another redesign&#63;&#41;.</p>
+
+              <h4>Wireframes</h4>
+
+              <p>I considered the best ways to make it so users wouldn't forget to save messages and help them locate specific saved messages more easily, creating wireframes in Adobe XD to illustrate a redesigned user flow. Please excuse the AssistiveTouch in the corner of the gif. &#128531;</p>
+
+              <a href="images/snapchatwireframeflow.gif" target="_blank"><img src="images/snapchatwireframeflow.gif" align="right" alt="Gif of redesigned Snapchat chat feature wireframe flow." class="img-fluid" id="wireframegif"></a>
+
+              <ol>
+                <li>User navigates from Home page to Chat page.</li>
+
+                <li>User toggles Auto-Save Messages on.</li>
+
+                <li>User presses and holds on a message from friend.</li>
+
+                <li>User pins the message.</li>
+
+                <li>User presses and holds on the pinnned message.</li>
+
+                <li>User selects &quot;Go to in Chat&quot; to navigate straight to the pinned message in the chat.</li>
+
+              </ol>
+
+              <p><strong>Pain Point &#35;1&#58; Users have difficulty remembering to save previous messages in conversations.</strong></p>
+
+              <p><strong>Solution:</strong> In every individual chat conversation, users have the option to toggle Auto-Save Messages on and off. When this is toggled on, all new messages are automatically saved. However, as you can see, users still have the option to unsave specific messages by pressing and holding on them. As chat conversations involve more than one person, anyone in the chat would be able to toggle Auto-Save Messages on and off, and it will change for everyone in the chat. When Auto-Save Messages is toggled off, the chat works just as Snapchat has it normally: messages disappear immediately after it is read by the recipient, unless manually saved. Preexisting messages would be unaffected by toggling Auto-Save Messages on and off.</p>
+
+              <p><strong>Pain Point &#35;2&#58; Users have difficulty finding older saved messages.</strong></p>
+
+              <p><strong>Solution:</strong> Users also have the ability to pin messages to the top of the chat. This is done by pressing and holding on a specific message and selecting &quot;Pin Message.&quot; Pinned messages will always remain at the top of the chat until unpinned by member of the chat. Users can also navigate directly to where the pinned message is originally located by pressing and holding on the pinned chat and selecting &quot;Go to in Chat.&quot; I have also included the static wireframes down below. Read them left to right and top to bottom.</p>
+
+              <img src="images/Home.png" alt="Wireframe of Snapchat home page." class="img-fluid" id="wireframeflows">
+
+              <img src="images/Chat.png" alt="Wireframe of Snapchat chat page." class="img-fluid" id="wireframeflows">
+
+              <img src="images/Open-Chat.png" alt="Wireframe of Snapchat open chat conversation." class="img-fluid" id="wireframeflows">
+
+              <img src="images/Toggle-Auto-Save-On.png" alt="Wireframe of Snapchat chat auto save toggled on." class="img-fluid" id="wireframeflows">
+
+              <img src="images/Press-Hold-Message.png" alt="Wireframe of Snapchat open chat conversation and message options." class="img-fluid" id="wireframeflows">
+
+              <img src="images/Message-Pinned.png" alt="Wireframe of Snapchat open chat conversation and pinned message." class="img-fluid" id="wireframeflows">
+
+              <img src="images/Pinned-Message-Options.png" alt="Wireframe of Snapchat open chat conversation and pinned message options." class="img-fluid" id="wireframeflows">
+
+              <img src="images/Navigated-To-Pinned-Message.png" alt="Wireframe of Snapchat pinned message." class="img-fluid" id="wireframeflows">
+
+              <h4>Visual Mockups</h4>
+
+              <p>Once I had decided on an effective user flow and created my wireframes, I was able to design some visual mockups in Adobe XD and Photoshop. Read them left to right, top to bottom.</p>
+
+              <img src="images/snapchatmockup1.png" alt="Wireframe of Snapchat home page." class="img-fluid" id="mockupflows">
+
+              <img src="images/snapchatmockup2.png" alt="Wireframe of Snapchat chat page." class="img-fluid" id="mockupflows">
+
+              <img src="images/snapchatmockup3.png" alt="Wireframe of Snapchat open chat conversation." class="img-fluid" id="mockupflows">
+
+              <img src="images/snapchatmockup4.png" alt="Wireframe of Snapchat chat auto save toggled on." class="img-fluid" id="mockupflows">
+
+              <img src="images/snapchatmockup5.png" alt="Wireframe of Snapchat open chat conversation and message options." class="img-fluid" id="mockupflows">
+
+              <img src="images/snapchatmockup6.png" alt="Wireframe of Snapchat open chat conversation and pinned message." class="img-fluid" id="mockupflows">
+
+              <p>Users no longer have to worry about forgetting to save message, when they can just turn on Auto-Save Messages and have their messages save automatically. Also, they can pin any important messages and easily find them later on at the top of their chats.</p>
+
+              <h3>Conclusion</h3>
+
+              <p>Going into this project, I knew that this would be the perfect opportunity to further hone my design skills and get some more experience working in Adobe XD. As I worked through each step of the process, I realized that this would be a more challenging project than I had expected, but I was able to learn all the things I set out to learn in order to deliver this project and so much more. I learned what works and what doesn't, and I was able to pick up some new information along the way. As I've completed working through the ideation phase, I would love to eventually create a prototype of my redesign, test it, and iterate based on my results. For now, thank you for reading through my case study and walking through a new learning experience with me! Don't hesitate to reach out with any feedback, questions, or comments.</p>
 
             </div>
 

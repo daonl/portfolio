@@ -73,7 +73,7 @@ header {
 	color: black;
 }
 
-p {
+p, ul {
 	font-family: 'Rubik', sans-serif;
 	font-weight: 400;
 	font-size: 15px;
@@ -253,6 +253,24 @@ a.aboutlink:hover {
 
 #redesign-tools {
 	padding-bottom: 15px;
+}
+
+#wireframegif {
+    max-width: 35%;
+    height: auto;
+    padding-left: 25px;
+}
+
+#wireframeflows {
+	padding-bottom: 15px;
+	max-width: 32%;
+    height: auto;
+}
+
+#mockupflows {
+	padding-bottom: 15px;
+	max-width: 45%;
+    height: auto;
 }
 
 #disclaimer {
