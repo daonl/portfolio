@@ -261,13 +261,85 @@ a.aboutlink:hover {
     padding-left: 25px;
 }
 
-#wireframeflows, #wireframeflows2, #wireframeflows3, #wireframeflows4, #wireframeflows5, #wireframeflows6, #wireframeflows7, #wireframeflows8 {
+#wireframeflows {
 	padding-bottom: 15px;
 	max-width: 32%;
     height: auto;
 }
 
-#mockupflows, #mockupflows2, #mockupflows3, #mockupflows4, #mockupflows5, #mockupflows6 {
+#wireframeflows2 {
+	padding-bottom: 15px;
+	max-width: 32%;
+    height: auto;
+}
+
+#wireframeflows3 {
+	padding-bottom: 15px;
+	max-width: 32%;
+    height: auto;
+}
+
+#wireframeflows4 {
+	padding-bottom: 15px;
+	max-width: 32%;
+    height: auto;
+}
+
+#wireframeflows5 {
+	padding-bottom: 15px;
+	max-width: 32%;
+    height: auto;
+}
+
+#wireframeflows6 {
+	padding-bottom: 15px;
+	max-width: 32%;
+    height: auto;
+}
+
+#wireframeflows7 {
+	padding-bottom: 15px;
+	max-width: 32%;
+    height: auto;
+}
+
+#wireframeflows8 {
+	padding-bottom: 15px;
+	max-width: 32%;
+    height: auto;
+}
+
+#mockupflows {
+	padding-bottom: 15px;
+	max-width: 45%;
+    height: auto;
+}
+
+#mockupflows2 {
+	padding-bottom: 15px;
+	max-width: 45%;
+    height: auto;
+}
+
+#mockupflows3 {
+	padding-bottom: 15px;
+	max-width: 45%;
+    height: auto;
+}
+
+#mockupflows4 {
+	padding-bottom: 15px;
+	max-width: 45%;
+    height: auto;
+}
+
+#mockupflows5 {
+	padding-bottom: 15px;
+	max-width: 45%;
+    height: auto;
+}
+
+#mockupflows6 {
 	padding-bottom: 15px;
 	max-width: 45%;
     height: auto;
