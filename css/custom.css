@@ -170,38 +170,38 @@ footer {
 
 .btn-primary {
 	color: #fff;
-    background-color: #493c36;
-    border-color: #493c36;
+    background-color: #7462E0;
+    border-color: #7462E0;
 }
 
 .btn-primary:link {
 	color: #fff;
-    background-color: #493c36;
-    border-color: #493c36;
+    background-color: #7462E0;
+    border-color: #7462E0;
 }
 
 .btn-primary:visited {
 	color: #fff;
-    background-color: #493c36;
-    border-color: #493c36;
+    background-color: #7462E0;
+    border-color: #7462E0;
 }
 
 .btn-primary:hover {
-	color: #493c36;
-	background-color: #e2b699;
-	border-color: #e2b699;
+	color: #fff;
+	background-color: #9688E7;
+	border-color: #9688E7;
 }
 
 .btn-primary:active {
-	color: #493c36;
-	background-color: #e2b699;
-	border-color: #e2b699;
+	color: #7462E0;
+	background-color: #9688E7;
+	border-color: #9688E7;
 }
 
 .btn-primary:focus {
-	color: #493c36;
-	background-color: #e2b699;
-	border-color: #e2b699;
+	color: #7462E0;
+	background-color: #9688E7;
+	border-color: #9688E7;
 }
 
 #about {
@@ -213,15 +213,15 @@ footer {
 }
 
 a.aboutlink {
-	color: #493c36;
+	color: #7462E0;
 	text-decoration: underline;
-	text-decoration-color: #e2b699;
+	text-decoration-color: #9fe2bf;
 }
 
 a.aboutlink:hover {
-	color: #887b73;
+	color: #9688E7;
 	text-decoration: underline;
-	text-decoration-color: #e2b699;
+	text-decoration-color: #D0F1E0;
 }
 
 @media screen and (max-width: 768px) {
