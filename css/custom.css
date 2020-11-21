@@ -239,7 +239,7 @@ a.aboutlink:hover {
 	margin-right: -30px;
 }
 
-#redesign-description {
+.redesign-description {
 	padding-right: 70px;
 }
 
@@ -247,11 +247,11 @@ a.aboutlink:hover {
 	padding: 0 0 30px 0;
 }
 
-#redesign-details, #redesign-details2, #redesign-details3, #redesign-details4, #redesign-details5, #redesign-tools {
+#redesign-details, #redesign-details2, #redesign-details3, #redesign-details4, .redesign-details5, #redesign-tools {
 	line-height: 1.5;
 }
 
-#redesign-tools {
+.redesign-tools {
 	padding-bottom: 15px;
 }
 
