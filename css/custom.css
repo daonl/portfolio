@@ -188,20 +188,20 @@ footer {
 
 .btn-primary:hover {
 	color: #fff;
-	background-color: #9688E7;
-	border-color: #9688E7;
+	background-color: #7562DF;
+	border-color: #7562DF;
 }
 
 .btn-primary:active {
 	color: #7462E0;
-	background-color: #9688E7;
-	border-color: #9688E7;
+	background-color: #7562DF;
+	border-color: #7562DF;
 }
 
 .btn-primary:focus {
 	color: #7462E0;
-	background-color: #9688E7;
-	border-color: #9688E7;
+	background-color: #7562DF;
+	border-color: #7562DF;
 }
 
 #about {
@@ -219,7 +219,7 @@ a.aboutlink {
 }
 
 a.aboutlink:hover {
-	color: #9688E7;
+	color: #7562DF;
 	text-decoration: underline;
 	text-decoration-color: #D0F1E0;
 }
@@ -243,8 +243,28 @@ a.aboutlink:hover {
 	padding-right: 70px;
 }
 
+.padding-right {
+	padding-right: 70px;
+}
+
+#powerpoint {
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+#last-section {
+	padding-bottom: 600px;
+}
+
 #redesign-intro-pic, #redesign-intro-pic2, #redesign-intro-pic3, #redesign-intro-pic4 {
 	padding: 0 0 30px 0;
+}
+
+#fsnp {
+	padding: 0 0 30px 0;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #redesign-details, #redesign-details2, #redesign-details3, #redesign-details4, .redesign-details5, #redesign-tools {
@@ -252,6 +272,10 @@ a.aboutlink:hover {
 }
 
 .redesign-tools {
+	padding-bottom: 15px;
+}
+
+.padding-bottom {
 	padding-bottom: 15px;
 }
 
@@ -350,9 +374,14 @@ a.aboutlink:hover {
 	color: #6c757d;
 }
 
-#caption {
+.caption {
 	text-align: center;
 	font-size: 13px;
+	margin-bottom: 30px;
+}
+
+#learnerprofile, #learnerchart {
+	margin-bottom: 30px;
 }
 
 #contact {
@@ -374,7 +403,7 @@ a.aboutlink:hover {
 .dropdown-item.active, .dropdown-item:active {
     color: #fff;
     text-decoration: none;
-    background-color: #493c36;
+    background-color: #7562DF;
 }
 
 .dropdown-item {
@@ -391,6 +420,6 @@ a.aboutlink:hover {
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #493c36;
-    border-color: #493c36;
+    background-color: #7562DF;
+    border-color: #7562DF;
 }
