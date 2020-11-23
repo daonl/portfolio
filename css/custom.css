@@ -188,20 +188,20 @@ footer {
 
 .btn-primary:hover {
 	color: #fff;
-	background-color: #7562DF;
-	border-color: #7562DF;
+	background-color: #8878E3;
+	border-color: #8878E3;
 }
 
 .btn-primary:active {
-	color: #7462E0;
-	background-color: #7562DF;
-	border-color: #7562DF;
+	color: #000;
+	background-color: #A699EA;
+	border-color: #A699EA;
 }
 
 .btn-primary:focus {
-	color: #7462E0;
-	background-color: #7562DF;
-	border-color: #7562DF;
+	color: #000;
+	background-color: #A699EA;
+	border-color: #A699EA;
 }
 
 #about {
