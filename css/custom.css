@@ -73,7 +73,7 @@ header {
 	color: black;
 }
 
-p, ul {
+p, ul, .card-body {
 	font-family: 'Rubik', sans-serif;
 	font-weight: 400;
 	font-size: 15px;
@@ -113,7 +113,7 @@ h3 {
 	line-height: 1.5em;
 }
 
-h4 {
+h4, button.btn.btn-link.btn-block.text-left {
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
 	font-size: 20px;
@@ -243,13 +243,17 @@ a.aboutlink:hover {
 	padding-right: 70px;
 }
 
-.padding-right {
+#padding-right, #padding-right1, #padding-right2 {
 	padding-right: 70px;
 }
 
 #powerpoint {
 	margin-bottom: 20px;
 	margin-top: 20px;
+}
+
+iframe {
+	border: 0px;
 }
 
 @media only screen and (max-width: 1026px) {
@@ -386,7 +390,7 @@ a.aboutlink:hover {
 	margin-bottom: 30px;
 }
 
-#contact {
+#contact, #reading-list {
 	margin-top: 8rem;
 }
 
